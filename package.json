@@ -1,0 +1,15 @@
+{
+  "name": "drag_drop",
+  "version": "1.0.0",
+  "description": "A drag&drop project made with HTML, CSS, and  JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["html", "css", "js", "drag&drop"],
+  "author": "Jose Padín",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.7.2"
+  }
+}

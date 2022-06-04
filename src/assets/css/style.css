@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 98vw;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section:first-of-type {
+    margin-bottom: 70px;
+}
+
+p {
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+#trash {
+    position: absolute;
+    right: 0;
+    bottom: 50vh;
+}

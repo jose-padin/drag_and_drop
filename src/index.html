@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drag & Drop</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="/drag_drop/src/assets/css/style.css">
+    </head>
+    <body>
+        
+        <div class="container my-4">
+            <h1>Drag & Drop</h1>
+            <section class="row">
+                <p id="1" draggable="true">Element 1</p>
+                <p id="2" draggable="true">Element 2</p>
+                <p id="3" draggable="true">Element 3</p>
+                <p id="4" draggable="true">Element 4</p>
+            </section>
+            <!-- trash can start -->
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <img id="trash" src="/drag_drop/src/assets/images/images.jpeg" alt="Papelera" />
+                </div>
+            </div>
+            <!-- trash can end -->
+            <section class="row">
+                <p id="5" draggable="true">Element 5</p>
+                <p id="6" draggable="true">Element 6</p>
+                <p id="7" draggable="true">Element 7</p>
+                <p id="8" draggable="true">Element 8</p>
+            </section>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
